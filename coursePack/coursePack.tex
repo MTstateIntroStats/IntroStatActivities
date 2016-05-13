@@ -43,6 +43,17 @@
 \newcommand{\xb}{\overline{x}}
 \newcommand{\xbar}{\overline{x}}
 \newcommand{\phat}{\widehat{p}}
+\newcommand{\ActHead}{
+\fancyhead[LE,RO]{
+   {\it \theTopic }\\
+   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
+}}
+\newcommand{\ReadHead}{
+\fancyhead[LE,RO]{
+   {\it \theTopic }\\
+   {\it Unit \unitNum\   \ Page \thepage }
+}
+}
 
 \DeclareRobustCommand{\webAppURLFrst}{\url{http://shiny.math.montana.edu/stat216/IntroStatShinyApps}}
 \DeclareRobustCommand{\webAppURLScnd}{\url{https://jimrc.shinyapps.io/Sp-IntRoStats}}
@@ -105,516 +116,257 @@
 \def\theTopic{Syllabus }
 \def\dayNum{1}
 \def\unitNum{1}
-\setcounter{page}{1}
+%\setcounter{page}{1}
 
 \headheight = .75 in
 \headsep = 0.2 in
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
+
+\ActHead
 \setcounter{page}{1}
- \newpage
- \include{./activities/U1-A1}  % pages 1 - 9.  Script:  pgs 7-9
- \newpage
-
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
-
-
+  \newpage
+  \include{./activities/U1-A1}  % pages 1 - 9.  Script:  pgs 7-9
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U1-R1}  %% buff  p 11 -- 16
   \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U1-A2} %% Descriptives - pgs 17 - 26
- \newpage
-
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U1-A2} %% Descriptives - pgs 17 - 26
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U1-R2}   
                                %%  buff: 23 - 26
   \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U1-A3}  %% sampling exercise  pgs 27 - 32
-                               %% 
- \newpage
-
-% \ \ \ \thispagestyle{empty}
-% \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U1-A3}  %% sampling exercise  pgs 27 - 32
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U1-R3}  %% p 33- 36 buff
   \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U1-A4}  %% helper-hinderer  pgs 37 - 40 
- \newpage
-
-%\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage } 
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U1-A4}  %% helper-hinderer  pgs 37 - 40 
+  \newpage
+\ReadHead
   \include{./readings/U1-R4} %% p 41- 44 buff
   \newpage
-
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\ 
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U1-A5}  %% ESP   pgs 45 - 48
- \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U1-A5}  %% ESP   pgs 45 - 48
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U1-R5} %% p 49- 50 buff
   \newpage
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage } 
-}
- \include{./activities/U1-A6}  %% Rats - CI   pgs 51 - 56
- \newpage
-
-\include{./NotesBlankPage}
-    
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+\ActHead
+  \include{./activities/U1-A6}  %% Rats - CI   pgs 51 - 56
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U1-R6} %% p 57- 58 buff
   \newpage
-  
-\fancyhead[LE,RO]{ 
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U1-A7}  %%  CI - meaning   pgs 59- 62
- \newpage
-
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{ 
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+\ActHead
+  \include{./activities/U1-A7}  %%  CI - meaning   pgs 59- 62
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U2-R9}  %% p 63-64  buff
-%%  Reordering for summer 2016 renumbered 9 as 7
+  %%  Reordering for summer 2016 renumbered 9 as 7
   \newpage
-
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U2-A11}  %%   pgs  67 -- 72
-%%  Reordering for summer 2016 renumbered 11 as 8
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U2-A11}  %%   pgs  67 -- 72
+  %%  Reordering for summer 2016 renumbered 11 as 8
   \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{ 
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U1-R7}  %% p 71-74  buff
-%%  Reordering for summer 2016 renumbered 7 as 8
+   %%  Reordering for summer 2016 renumbered 7 as 8
   \newpage
-
-\include{./NotesBlankPage}
-
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U1-A8}  %% Male idiot  pgs  75 -- 77
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U1-A8}  %% Male idiot  pgs  75 -- 77
 %%  Reordering for summer 2016 renumbered 8 as 9
   \newpage
-
- \include{./activities/U1-A9}  %% Review  pgs 78 - 83
+  \include{./activities/U1-A9}  %% Review  pgs 78 - 83
 %%  Reordering for summer 2016 renumbered 9 as 10
-
   %% This was the ordering for Spring 2016
 %   \include{./readings/U1-R7}  %% p 63-64  buff
 %   \newpage
-
-% \fancyhead[LE,RO]{
-%    {\it \theTopic }\\
-%    {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-% }
+% \ActHead
 %  \include{./activities/U1-A8}  %% Male idiot  pgs  65 -- 67
 %   \newpage
 %  \include{./activities/U1-A9}  %% Review  pgs 68 - 73
-
-\newpage
- % \ \ \ \thispagestyle{empty}  %% p  blank white
- % \newpage
-
-\def\unitNum{2} 
- \thispagestyle{empty}
- \vspace*{\fill}
- \begin{center}
-   {\huge Unit 2}   %% p 83 - 84 blue
- \end{center}
- \vspace*{\fill}
- \newpage
- \ \ \ \thispagestyle{empty}  %% p 84 blank blue
- \newpage
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
-  \include{./readings/U2-R8}  %% 85-88 buff 
-%%  Reordering for summer 2016 renumbered 8 as 9
   \newpage
-
-\include{./NotesBlankPage}
-
- 
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
-
+\def\unitNum{2} 
+  \thispagestyle{empty}
+  \vspace*{\fill}
+  \begin{center}
+    {\huge Unit 2}   %% p 83 - 84 blue
+  \end{center}
+  \vspace*{\fill}
+  \newpage
+  \ \ \ \thispagestyle{empty}  %% p 84 blank blue
+  \newpage
+\ReadHead
+  \include{./readings/U2-R8}  %% 85-88 buff 
+    %%  Reordering for summer 2016 renumbered 8 as 9
+  \newpage
+   \include{./NotesBlankPage}
+\ActHead
   \include{./activities/U2-A10} %% Music to study by? Experiments pgs 89-96
   \newpage
-
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
-
+  \include{./NotesBlankPage}
+\ReadHead
 %%  Moved up sooner for summer
 %   \include{./readings/U2-R9}    %% sampling dist'n for xbar pgs 89-90 buff
 %   \newpage
-
-% \fancyhead[LE,RO]{
-%    {\it \theTopic }\\
-%    {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-% }
+%  \ActHead
 %  \include{./activities/U2-A11} %% book costs bootstrap mean CI   pgs 91-95  
 %                                                              %% p 96 blank
 %  \newpage
-
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
   \include{./readings/U2-R10}    %% comparative studies  pages 97-98  buff
   \newpage
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U2-A12}%% Peanut Experiment  pgs 99-104
- \newpage 
-\include{./NotesBlankPage}
-
- 
-\fancyhead[LE,RO]{ 
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage } 
-}
+\ActHead
+  \include{./activities/U2-A12}%% Peanut Experiment  pgs 99-104
+  \newpage 
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U2-R11}  %% p 105-108  buff
   \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{ 
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
-
- \include{./activities/U2-A13} %%  ` Wrong weight`  pgs 109-114
- \newpage
-
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U2-A13} %%  ` Wrong weight`  pgs 109-114
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U2-R12}   %% pages  115-116  buff
   \newpage
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
-
- \include{./activities/U2-A14}  %% Energy Drinks 6 pgs 117-122
- \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+\ActHead
+  \include{./activities/U2-A14}  %% Energy Drinks 6 pgs 117-122
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U2-R13}   %% pages 123-126  buff
   \newpage
-\include{./NotesBlankPage}
-
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
-
- \include{./activities/U2-A15}  %% Arsenic test of 1 mean  pgs 127-132
- \newpage
-\include{./NotesBlankPage}
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U2-A15}  %% Arsenic test of 1 mean  pgs 127-132
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U2-R14}   %% pages 133 -136 buff
   \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
-
- \include{./activities/U2-A16}  %% Errors pgs 137-142
- \newpage
-\include{./NotesBlankPage}
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U2-A16}  %% Errors pgs 137-142
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U2-R15}   %%  p 143-146  buff
   \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U2-A17}  %% slope corr 5 pgs 148-152  Rossman-CHance
- \newpage
-\include{./NotesBlankPage}
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U2-A17}  %% slope corr 5 pgs 148-152  Rossman-CHance
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U2-R16}   %% Test slope pages 153 - 154 buff
-
   \newpage
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U2-A18}  %% test slope:  155-160
+\ActHead
+  \include{./activities/U2-A18}  %% test slope:  155-160
   \newpage
-\include{./NotesBlankPage}
- \newpage
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
-
+  \include{./NotesBlankPage}
+  \newpage
+\ActHead
            %%  no reading U2-R17 -- they find a regression example.
- \include{./activities/U2-A19}  %% more regression p 161- 163 
- \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
-
- \include{./activities/U2-A20}  %% review   pgs 165 - 170
-
-\newpage
-%\include{./NotesBlankPage}
+  \include{./activities/U2-A19}  %% more regression p 161- 163 
+  \newpage
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U2-A20}  %% review   pgs 165 - 170
+  \newpage
+ %\include{./NotesBlankPage}
 
  % \ \ \ \thispagestyle{empty}%% p 150 blank
  % \newpage
 
 
 \def\unitNum{3}
- \thispagestyle{empty} 
- \vspace*{\fill}
- \begin{center}
-   {\huge Unit 3}                %% p 171-172  blue
- \end{center}
- \vspace*{\fill}
- \newpage
- \ \ \ \thispagestyle{empty}
- \newpage 
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \thispagestyle{empty} 
+  \vspace*{\fill}
+  \begin{center}
+    {\huge Unit 3}                %% p 171-172  blue
+  \end{center}
+  \vspace*{\fill}
+  \newpage
+  \ \ \ \thispagestyle{empty}
+  \newpage 
+\ReadHead
   \include{./readings/U3-R17}   %%  pages 173 - 174  buff
   \newpage
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U3-A21}  %%  pgs 175-182
-\include{./NotesBlankPage}
- \newpage
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U3-A21}  %%  pgs 175-182
+  \include{./NotesBlankPage}
+  \newpage
+\ReadHead
   \include{./readings/U3-R18}   %%  pages 183 - 184 buff
-%  \newpage
-%  \ \ \ \thispagestyle{empty}
- \newpage 
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
-
-\include{./activities/U3-A22}  %%  pgs 185-192
- \newpage 
-%\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage } 
-}
- \include{./readings/U3-R19}  %%  Baking bread  pages  193-194 buff
- 
+  \newpage 
+\ActHead
+  \include{./activities/U3-A22}  %%  pgs 185-192
+  \newpage 
+\ReadHead
+  \include{./readings/U3-R19}  %%  Baking bread  pages  193-194 buff
+  \newpage
+\ActHead
  \newpage
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \newpage
- \include{./activities/U3-A23} %%  Normal -- 2 proportions pgs 195-200 
-
-\include{./NotesBlankPage}
-\newpage
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./activities/U3-A23} %%  Normal -- 2 proportions pgs 195-200 
+  \include{./NotesBlankPage} 
+  \newpage
+\ReadHead
   \include{./readings/U3-R20}   %% Galtons Board  p 201 -202 buff
-\include{./NotesBlankPage}
-\newpage  
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U3-A24}  %%  t-distn for 1 mean  pgs  203-210
-
-
- \newpage
-\include{./NotesBlankPage}
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+  \newpage  
+\ActHead
+  \include{./activities/U3-A24}  %%  t-distn for 1 mean  pgs  203-210
+  \newpage
+  \include{./NotesBlankPage}
+\ReadHead
   \include{./readings/U3-R21}   %%   t-distn examples & practice 
                                 %%   p 211-214 buff  
-\newpage
-
-\include{./NotesBlankPage}
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \include{./activities/U3-A25}   %% more REDs  pg  215 - 220
   \newpage
-
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \include{./activities/U3-A25}   %% more REDs  pg  215 - 220
+  \newpage
+\ReadHead
   \include{./readings/U3-R22}   %%  Intro 2 pairs?  p 221 -222 buff  
-
-\include{./NotesBlankPage}
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-}
- \newpage
- \include{./activities/U3-A26} %% Paired  %%   pgs 223 - 228
- \newpage
-
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\   \ Page \thepage }
-}
+  \include{./NotesBlankPage}
+\ActHead
+  \newpage
+  \include{./activities/U3-A26} %% Paired  %%   pgs 223 - 228
+  \newpage
+\ReadHead 
   \include{./readings/U3-R23}   %% Concussions   p 229 - 232 buff &
-                                
-\include{./NotesBlankPage}
+  \include{./NotesBlankPage}
   \newpage
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-} 
- \include{./activities/U3-A27}  %% Concussions  pgs  233 - 238
-\include{./NotesBlankPage}
- \newpage
-
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-} 
-
- \include{./activities/U3-A28} %%   wrapup  pgs 239 - 246
-
-\include{./NotesBlankPage}
-
+\ActHead 
+  \include{./activities/U3-A27}  %% Concussions  pgs  233 - 238
+  \include{./NotesBlankPage}
   \newpage
-\fancyhead[LE,RO]{
-   {\it \theTopic }\\
-   {\it Unit \unitNum\  Activity \dayNum \ Page \thepage }
-} 
- \include{Glossary}  %% Glossary  p  247 - 252
+\ActHead 
+  \include{./activities/U3-A28} %%   wrapup  pgs 239 - 246
+  \include{./NotesBlankPage}
+  \newpage
+\ActHead 
+  \include{Glossary}  %% Glossary  p  247 - 252
 \fancyhead{}
 %\newpage
 %\ \ \ \thispagestyle{empty}
