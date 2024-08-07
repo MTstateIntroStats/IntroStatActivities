@@ -1,4 +1,4 @@
-movie_title,budget_mil,revenue_mil,duration,content_rating,imdb_score,genres,movie_facebook_likes,revenue_inc
+movie_title,budget_mil,revenue_mil,duration,content_rating,imdb_score,genres,movie_facebook_likes,revenue_reduced
 Batman v Superman: Dawn of Justice ,250,330.249062,183,PG-13,6.9,Action|Adventure|Sci-Fi,197000,230.249062
 Captain America: Civil War ,250,407.197282,147,PG-13,8.2,Action|Adventure|Sci-Fi,72000,307.197282
 Star Trek Beyond ,185,130.468626,122,PG-13,7.5,Action|Adventure|Sci-Fi|Thriller,30000,130.468626
